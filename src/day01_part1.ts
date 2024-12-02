@@ -5,7 +5,7 @@ import * as path from "node:path";
 var leftList: number[] = []
 var rightList: number[] = []
 
-parseLineByLine(path.join(__dirname, '../inputs/day01.txt'))
+parseLineByLine(path.join(__dirname, '../inputs/day01_part1.txt'))
     .forEach(value => {
         let split = value.split(/\s/);
         leftList.push(Number(split[0]));
